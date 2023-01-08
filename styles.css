@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.firstContainer{
+    height: 100vh;
+    background-color: #FCE2DB;
+    display: flex;
+    position: relative;
+    left: 0%;
+    top: 0%;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secondContainer{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    /* height: 100vh !important; */
+    left: 0%;
+    right: 0%;
+}
+
+.thirdContainer {
+    /* height: 100vh !important; */
+    position: relative;
+    background-color: #FCE2DB;
+    width: 100%;
+    left: 0%;
+}
+
+.footer{
+    background-color: #FF8FB1;
+    left: 0;
+    bottom: 0%;
+    width: 100%;
+}
+
+.name {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 100%;
+    height: 30vh;
+}
+
+.headName{
+    color: #B270A2;
+    font-family:Sacramento;
+    font-size: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px;
+}
+
+.headName:hover, .para:hover, .project:hover{
+    color: #FF8FB1;
+}
+
+.para{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    font-family:Sacramento;
+    font-size: 3rem;
+    color: #B270A2;
+    margin: 0px 0px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
+    height: 55%;
+    top: 10vh;
+}
+
+.user {
+    height: 15vh;
+}
+
+.userContainer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+    font-size: 1.3rem;
+    color: #B270A2;
+    margin: 5px 5px;
+    padding: 2rem;
+}
+
+.project {
+    display: flex;
+    justify-content: flex-start;
+    margin: 2%;
+    font-family: sans-serif !important;
+    color: #B270A2;
+    margin: 2rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 0px;
+    font-family: sans-serif !important;
+    padding: 2rem;
+    color: #B270A2;
+}
+
+a {
+    text-decoration: underline;
+    color: #B270A2;
+}
+
+.langImage {
+    height: 10vh;
+    margin: 2% 5%;
+}
+
+.lamgImageNode {
+    height: 10vh;
+    margin: 2% 5%;
+}
+
+.contiimg {
+    width: 100%;
+}
+
+.warm {
+    color: #B270A2;
+    font-size: 1.5rem;
+    margin: 5%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact{
+    color: white;
+    margin: 0 2%;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+.tag {
+    margin: 2% 0 ;
+    color: white;
+    font-size: 1rem;
+    font-family: cursive;
+}
